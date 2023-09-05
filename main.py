@@ -16,7 +16,7 @@ def checkPassword():
 
     #checks password length
     if (len(password) > 14):
-        indexValue += 5
+        indexValue += 15
     else:
         suggest.append("You should increase your password length")
 
